@@ -8,10 +8,10 @@
 <body>
 	<div id="Caja">
         <div id="Caja1">
-    	    <a href="file:///Users/MiguelAngel/Desktop/Trabajo/index.html"><strong>+</strong></a>
+    	    <a href="file:///Users/MiguelAngel/Desktop/IvaCalculatorESP/index.html"><strong>+</strong></a>
         </div>
         <div id="Caja2">
-    	    <a href="file:///Users/MiguelAngel/Desktop/Trabajo/index.html"><strong>-</strong></a>
+    	    <a href="file:///Users/MiguelAngel/Desktop/IvaCalculatorESP/index.html"><strong>-</strong></a>
         </div>
     </div>
     <script type="text/javascript">
@@ -21,9 +21,10 @@
             } else{
                 var iva = 0.21;
                 var ivaDeLaCant = resultadoIva=(0.21*cantidad);
-                var resultado = (resultadoIva + cantidadInicial);
-                var resta = (cantidadInicial - resultadoIva);
-                alert("La suma con iva es" + " " + resultado +".La base imponible sin iva es de" + " " + resta);
+                var resultado = Math.round(resultadoIva + cantidadInicial);
+                var resta = (cantidadInicial / 1.21);
+                var resultadoTotal = Math.round(resta);
+                alert("La suma con iva es" + " " + resultado +".La base imponible sin iva es de" + " " + resultadoTotal);
             }   
     </script>
 </body>
