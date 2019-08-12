@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculador de Iva</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" href="index.js"></script>
+</head>
+<body>
+	<div id="Caja">
+        <div id="Caja1">
+    	    <a href="file:///Users/MiguelAngel/Desktop/Trabajo/index.html"><strong>+</strong></a>
+        </div>
+        <div id="Caja2">
+    	    <a href="file:///Users/MiguelAngel/Desktop/Trabajo/index.html"><strong>-</strong></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+    	var cantidadInicial = Number(cantidad=(prompt("Cantidad a calcular")));
+            if (Number.isNaN(cantidadInicial)) {
+                alert("Eso no es un valor con el cual se pueda calcular el iva");
+            } else{
+                var iva = 0.21;
+                var ivaDeLaCant = resultadoIva=(0.21*cantidad);
+                var resultado = (resultadoIva + cantidadInicial);
+                var resta = (cantidadInicial - resultadoIva);
+                alert("La suma con iva es" + " " + resultado +".La base imponible sin iva es de" + " " + resta);
+            }   
+    </script>
+</body>
+</html>
