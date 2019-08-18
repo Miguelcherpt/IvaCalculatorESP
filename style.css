@@ -26,18 +26,3 @@
 a{
 	font-size: 40em;
 }
-
-@media only screen and (max-width: 900px){
-  a{
-  	margin-top: 50%;
-  	margin-bottom: 50%;
-  	font-size: 20em;
-  	text-align: center;
-  }
-  #Caja1{
-  	height: 812px;
-  }
-  #Caja2{
-  	height: 812px;
-  }
-}
