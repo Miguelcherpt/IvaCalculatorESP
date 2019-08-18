@@ -7,8 +7,8 @@
 	overflow-x: hidden;
 }
 #Caja{
-	justify-content: center;
 	display: flex;
+	justify-content: center;
 }
 #Caja1{
 	width: 50vw;
