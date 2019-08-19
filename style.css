@@ -32,8 +32,8 @@ a{
 }
 @media only screen and(max-width: 800px;){
 	a{
-		margin-top: 100vh;
-		margin-bottom: 100vh;
+		margin-top: 500vh;
+		margin-bottom: 500vh;
 		font-size: 50em;
 	}
 }
