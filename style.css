@@ -11,6 +11,7 @@
 	justify-content: center;
 }
 #Caja1{
+	justify-content: middle;
 	width: 50vw;
 	height: 100vh;
 	text-align: center;
@@ -24,7 +25,10 @@
 	background-color: red;
 }
 a{
-	top: 50%;
-	bottom: 50%;
 	font-size: 40em;
+}
+@media only screen and(min-width: 800px;){
+	a{
+		font-size: 50em;
+	}
 }
