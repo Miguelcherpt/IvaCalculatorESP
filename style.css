@@ -24,7 +24,7 @@
 	background-color: red;
 }
 a{
-	top: 25vw;
-	bottom: 25vw;
+	top: 50%;
+	bottom: 50%;
 	font-size: 40em;
 }
