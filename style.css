@@ -33,7 +33,7 @@ a{
 }
 @media only screen and (min-height:900px){
 	*{
-		overflow: visible;
+		overflow: hidden;
 	}
 	#Caja{
 		display: block;
