@@ -14,9 +14,17 @@
 	height: 52vh;
 	border-bottom: 15px solid black;
 }
+#Caja1 a{
+	margin-top: 26vh;
+	margin-bottom: 26vh;
+}
 #Caja2{
 	width: 100vw;
 	height: 50vh;
+}
+#Caja2 a{
+	margin-top: 26vh;
+	margin-bottom: 26vh;
 }
 a{
 	font-size: 20em;
