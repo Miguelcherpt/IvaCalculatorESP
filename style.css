@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
 	background-color: blue;
-	border-right: solid black 15px;
+	border-right: 15px solid black;
 }
 #Caja2{
 	width: 50vw;
@@ -30,25 +30,4 @@
 a{
 	justify-content: center;
 	font-size: 40em;
-}
-@media only screen and (min-height:900px){
-	*{
-		overflow: hidden;
-	}
-	#Caja{
-		display: block;
-	}
-	#Caja1{
-		width: 100vw;
-		height: 50vh;
-		border-bottom: solid Black 15px;
-		border-right: none;
-	}
-	#Caja2{
-		width: 100vw;
-		height: 50vh;
-	}
-	a{
-        margin: 15vh;
-	}
 }
