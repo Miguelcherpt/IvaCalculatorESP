@@ -5,28 +5,19 @@
     overflow-y: hidden;
 }
 #Caja{
-	display: block;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 #Caja1{
 	width: 100vw;
-	height: 50vh;
+	height: 52vh;
 	border-bottom: 15px solid black;
-}
-#Caja1 a{
-    text-align: center;
-    justify-content: center;
 }
 #Caja2{
 	width: 100vw;
 	height: 50vh;
 }
-#Caja2 a{
-	text-align: center;
-	justify-content: center;
-}
 a{
-	margin: 0 auto;
-	text-align: center;
-    font-size: 20em;
+	font-size: 20em;
 }
