@@ -16,7 +16,7 @@
 }
 #Caja1 a{
 	position: absolute;
-	left: 38vw;
+	margin: 0 auto;
 	text-align: center;
 }
 #Caja2{
@@ -25,9 +25,8 @@
 }
 #Caja2 a{
     position: absolute;
-    top: 50vh;
-	left: 43vw;
-	text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 a{
 	font-size: 20em;
