@@ -13,20 +13,24 @@
 	width: 100vw;
 	height: 52vh;
 	border-bottom: 15px solid black;
+	align-items: center;
 }
 #Caja1 a{
 	position: absolute;
 	margin: 0 auto;
 	text-align: center;
+	justify-content: center;
 }
 #Caja2{
 	width: 100vw;
 	height: 50vh;
+	align-items: center;
 }
 #Caja2 a{
     position: absolute;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
 }
 a{
 	font-size: 20em;
