@@ -20,6 +20,7 @@
 #Caja2{
 	width: 100vw;
 	height: 50vh;
+	text-align: center;
 }
 #Caja2 a{
     margin: 0 auto;
