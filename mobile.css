@@ -2,29 +2,30 @@
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+	overflow-y: hidden;
+}
+a{
+	font-size: 15rem;
 }
 #Caja{
+	width: 100vw;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
-#Caja1{
+#Caja1,#Caja2{
+	display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border:0px;
+}
+#Bar{
 	width: 100vw;
-	height: 50vh;
-	border-bottom: 15px solid black;
-}
-#Caja1 a{
-	margin: 0 auto;
-}
-#Caja2{
-	width: 100vw;
-	height: 50vh;
-	text-align: center;
-}
-#Caja2 a{
-    margin: 0 auto;
-    padding-bottom: 5vh;
-}
-a{
-	font-size: 20em;
+	height: 5vh;
+	background-color: black;
 }
