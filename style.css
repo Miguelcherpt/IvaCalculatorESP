@@ -1,33 +1,67 @@
-*{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	color: black;
-	overflow-x: hidden;
-	overflow-y: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
 }
-#Caja{
-	display: flex;
-	justify-content: center;
+body{
+  overflow: hidden;
 }
-#Caja1{
-	width: 50vw;
-	height: 100vh;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-	background-color: blue;
-	border-right: 15px solid black;
+#caja {
+  display: flex;
+  justify-content: center;
 }
-#Caja2{
-	width: 50vw;
-	height: 100vh;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-	background-color: red;
+
+#caja1 {
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
 }
-a{
-	justify-content: center;
-	font-size: 40em;
+
+#caja2 {
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+#button {
+  width: 20px;
+  background-color: black;
+}
+
+#button #text,#submit {
+  left:50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+}
+
+#button #text {
+  height: 10%;
+  top: 71%;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 5px solid black;
+}
+
+#button #submit {
+  display: flex;
+  padding: 1% 3%;
+  top: 85%;
+  text-align: center;
+  font-weight: Bold;
+  border: 5px solid black;
+}
+
+a {
+  justify-content: center;
+  font-size: 40rem;
 }

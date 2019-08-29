@@ -1,13 +1,12 @@
 *{
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow: hidden;
 }
 a{
 	font-size: 17rem;
 }
-#Caja{
+#caja{
 	width: 100vw;
 	height: 100vh;
 	display: flex;
@@ -15,7 +14,7 @@ a{
 	justify-content: center;
 	align-items: center;
 }
-#Caja1,#Caja2{
+#caja1,#caja2{
 	display: flex;
     flex-direction: column;
     width: 100vw;
@@ -23,9 +22,4 @@ a{
     justify-content: center;
     align-items: center;
     border:0px;
-}
-#Bar{
-	width: 100vw;
-	height: 5vh;
-	background-color: black;
 }
