@@ -14,12 +14,12 @@ a{
 #button #text{
 	display: flex;
 	top: 50vh;
-    height: 10%;
+    height: 12%;
     width: 70%;
 }
 #button #submit{
     display: flex;
-    top: 55vh;
+    top: 56vh;
 }
 #caja{
 	display: flex;
